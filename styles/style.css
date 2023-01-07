@@ -108,12 +108,15 @@ nav li a:hover{
     color: #444343;
     margin-bottom: 16px;
     width: 100%;
-    line-height: 24px
+    line-height: 24px;
 }
 
 .failure-success-list {
     list-style: none;
-    line-height: 24px
+    line-height: 24px;
+}
+.failure-success-list li i{
+    color: rgb(5, 241, 5);
 }
 
 /* Plans Styles */
