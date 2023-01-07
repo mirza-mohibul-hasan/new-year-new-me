@@ -274,10 +274,6 @@ nav li a:hover {
     width: 50%;
 }
 
-input::placeholder {
-    color: #F3F3F3;
-}
-
 .subscribe-button {
     color: #F15B22;
     text-align: center;
