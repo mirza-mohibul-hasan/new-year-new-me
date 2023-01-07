@@ -5,9 +5,11 @@
     margin: 0;
     padding: 0;
 }
-button{
+
+button {
     cursor: pointer;
 }
+
 /* Header Styles */
 /* Header Navigation */
 .nav {
@@ -15,29 +17,35 @@ button{
     justify-content: space-between;
     padding: 15px 150px 15px 120px;
 }
+
 .nav-title {
     font-weight: 700;
     font-size: 35px;
     font-style: italic;
 }
-.nav-title-color{
+
+.nav-title-color {
     color: #F15B22;
 }
+
 .nav-links {
     display: flex;
     align-items: center;
     font-size: 20px;
     font-weight: bold;
 }
+
 nav li {
     list-style: none;
     margin-left: 50px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     color: #151414;
 }
-nav li a:hover{
+
+nav li a:hover {
     color: #F15B22;
 }
 
@@ -52,22 +60,26 @@ nav li a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .banner-contents {
     text-align: right;
     width: 40%;
     margin-right: 10%;
 }
+
 .banner-title {
     font-weight: 700;
     font-size: 65px;
     color: #151414;
     margin-bottom: 24px;
 }
+
 .banner-descriptions {
     font-size: 16px;
     color: #444343;
     margin-bottom: 32px;
 }
+
 .banner-button {
     font-weight: 600;
     font-size: 20px;
@@ -91,6 +103,7 @@ nav li a:hover{
 .failure-success-image {
     flex: 1;
 }
+
 .failure-success-contents {
     flex: 1;
 }
@@ -115,7 +128,8 @@ nav li a:hover{
     list-style: none;
     line-height: 24px;
 }
-.failure-success-list li i{
+
+.failure-success-list li i {
     color: rgb(5, 241, 5);
 }
 
@@ -192,6 +206,7 @@ nav li a:hover{
     border-radius: 6px;
     border: none;
 }
+
 /* Styles for footer */
 .footer {
     margin-top: 130px;
@@ -204,12 +219,15 @@ nav li a:hover{
     margin: auto;
     justify-content: space-around;
 }
+
 .future {
     flex: 1;
 }
+
 .subscribe {
     flex: 1;
 }
+
 /* Footer contact*/
 .future-title {
     font-weight: 700;
@@ -244,6 +262,7 @@ nav li a:hover{
     color: #FFFFFF;
     margin-bottom: 25px;
 }
+
 /* Footer Subscribe */
 .email-form {
     border-radius: 5px;
@@ -254,9 +273,11 @@ nav li a:hover{
     color: #FFFFFF;
     width: 50%;
 }
-input::placeholder{
+
+input::placeholder {
     color: #F3F3F3;
 }
+
 .subscribe-button {
     color: #F15B22;
     text-align: center;
